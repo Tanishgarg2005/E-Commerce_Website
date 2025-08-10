@@ -5,6 +5,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     background: #f5f0f0;
+    overflow-x: hidden;
 }
 
 .container {
@@ -27,4 +28,21 @@ nav ul button:hover {
     color: #f97316 !important;
     text-transform: capitalize !important;
     background: none !important;
+}
+.slider{
+    overflow: inherit !important;
+}
+.swiper-button-prev,.swiper-button-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius:100% !important;
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+}
+.swiper-button-prev:after,.swiper-button-next:after{
+    font-size: 15px!important;
+    color: black;
 }

@@ -75,19 +75,19 @@ const Header = () => {
             <div className="col2 w-[45%]">
               <Search />
             </div>
-            <div className="col3 w-[30%] flex items-center pl-6">
+            <div className="col3 w-[25%] flex items-center">
               <ul className="flex items-center gap-3 w-full justify-end">
                 <li className="list-none">
                   <Link
                     to="/login"
-                    className="link transition font-[500] text-[15px] pr-1"
+                    className="link transition font-[500] text-[15px] pr-0.5"
                   >
                     Login
                   </Link>
-                  <span className="text-gray-400 mx-1">|</span>
+                  <span className="text-gray-400 mx-1">/</span>
                   <Link
                     to="/sign-up"
-                    className="link transition font-[500] text-[15px] pl-1"
+                    className="link transition font-[500] text-[15px] pl-0.5"
                   >
                     Sign Up
                   </Link>

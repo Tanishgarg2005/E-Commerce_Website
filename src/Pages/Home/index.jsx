@@ -1,10 +1,12 @@
 import React from 'react';
+import HomeSlider from '../../components/HomeSlider';
+import HomeCatSlider from '../../components/CatSlider';
 const Home=() => {
     return (
-        <div>
-            <h1>Welcome to the Home Page</h1>
-            <p>This is the home page of our e-commerce website.</p>
-        </div>
+        <>
+            <HomeSlider />
+            <HomeCatSlider />
+        </>
     );
 }
 
