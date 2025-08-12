@@ -6,6 +6,8 @@ const Home=() => {
         <>
             <HomeSlider />
             <HomeCatSlider />
+            <br />
+            <br /><br /><br /><br />
         </>
     );
 }

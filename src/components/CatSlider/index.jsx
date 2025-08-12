@@ -1,6 +1,7 @@
 import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'react-router-dom';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -15,21 +16,54 @@ const HomeCatSlider = () => {
         <div className="home-cat-slider">
            <div className="container">
             <Swiper
-        slidesPerView={6}
+        slidesPerView={5}
         spaceBetween={30}
         navigation={true}
         modules={[Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <Link to='/'>
+          <div className="item p-3 bg-white rounded-sm text-center flex items-center justify-center flex-col">
+            <img src="/smallSlider/pic1.png" alt=""  className='w-[60px] transition-all'/>
+            <h3 className='text-[15px] font-[500] mt-2.5'>Bags</h3>
+          </div>
+          </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Link to='/'>
+          <div className="item p-3 bg-white rounded-sm text-center flex items-center justify-center flex-col">
+            <img src="/smallSlider/pic1.png" alt=""  className='w-[60px] transition-all'/>
+            <h3 className='text-[15px] font-[500] mt-2.5'>Bags</h3>
+          </div>
+          </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Link to='/'>
+          <div className="item p-3 bg-white rounded-sm text-center flex items-center justify-center flex-col">
+            <img src="/smallSlider/pic1.png" alt=""  className='w-[60px] transition-all'/>
+            <h3 className='text-[15px] font-[500] mt-2.5'>Bags</h3>
+          </div>
+          </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Link to='/'>
+          <div className="item p-3 bg-white rounded-sm text-center flex items-center justify-center flex-col">
+            <img src="/smallSlider/pic1.png" alt=""  className='w-[60px] transition-all'/>
+            <h3 className='text-[15px] font-[500] mt-2.5'>Bags</h3>
+          </div>
+          </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Link to='/'>
+          <div className="item p-3 bg-white rounded-sm text-center flex items-center justify-center flex-col">
+            <img src="/smallSlider/pic1.png" alt=""  className='w-[60px] transition-all'/>
+            <h3 className='text-[15px] font-[500] mt-2.5'>Bags</h3>
+          </div>
+          </Link>
+        </SwiperSlide>
+        
+        
       </Swiper>
            </div>
         </div>

@@ -67,15 +67,15 @@ const Header = () => {
 
         <div className="header py-1.5 border-b-1 border-gray-200">
           <div className="container flex items-center justify-between">
-            <div className="col1 w-[22%]">
+            <div className="col1 w-[20%] pl-5">
               <Link to={"/"}>
-                <img src="/fashion-logo.jpg" alt="Logo" className="h-20 w-34" />
+                <img src="/smallSlider/image.png" alt="Logo" className="h-10 w-36" />
               </Link>
             </div>
-            <div className="col2 w-[45%]">
+            <div className="col2 w-[44%]">
               <Search />
             </div>
-            <div className="col3 w-[25%] flex items-center">
+            <div className="col3 w-[28%] flex items-center">
               <ul className="flex items-center gap-3 w-full justify-end">
                 <li className="list-none">
                   <Link

@@ -46,3 +46,35 @@ nav ul button:hover {
     font-size: 15px!important;
     color: black;
 }
+.home-cat-slider{
+    overflow: inherit !important;
+}
+.home-cat-slider .swiper-button-prev{
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+
+}
+.home-cat-slider .swiper-button-prev:after{
+    font-size: 16px!important;
+}
+.home-cat-slider .swiper-button-next{
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+
+}
+.home-cat-slider .swiper-button-next:after{
+    font-size: 16px!important;
+}
+.home-cat-slider .swiper-button-prev{
+    left: -10px !important;
+
+}
+.home-cat-slider .swiper-button-next{
+    right: -10px !important;
+    
+}
+.home-cat-slider .item:hover img{
+    transform: scale(1.2);
+}
